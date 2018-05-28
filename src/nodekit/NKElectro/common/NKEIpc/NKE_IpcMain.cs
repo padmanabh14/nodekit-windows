@@ -60,6 +60,7 @@ namespace io.nodekit.NKElectro
             return context.NKloadPlugin(typeof(NKE_IpcMain), null, options);
         }
 
+
         private static string defaultNamespace { get { return "io.nodekit.electro.ipcMain"; } }
 
         private static string rewriteGeneratedStub(string stub, string forKey)

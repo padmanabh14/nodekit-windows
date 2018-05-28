@@ -17,11 +17,12 @@
  * limitations under the License.
  */
 
-var BrowserWindow = io.nodekit.electro.BrowserWindow
+var BrowserWindow = io.nodekit.electro.BrowserWindow;
 
-var _browserWindows = {}
+var _browserWindows = {};
 
 BrowserWindow.prototype._init = function() {
+    console.log("Reached here");
     this._id = this.id;
     _browserWindows["w" + this._id] = this;
 };
@@ -39,7 +40,7 @@ BrowserWindow.fromId = function(id) {
 };
 
 BrowserWindow.getAllWindows = function() {
-    return Object.keys(_browserWindows).map(function (key) {return _browserWindows[key]});
+    return Object.keys(_browserWindows).map(function (key) { return _browserWindows[key];});
 };
 
 BrowserWindow.getFocusedWindow = function() {
@@ -59,7 +60,7 @@ BrowserWindow.fromWebContents = function(webContents) {
     windows = BrowserWindow.getAllWindows();
     for (i = 0, len = windows.length; i < len; i++) {
         window = windows[i];
-        if ((ref1 = window.webContents) != null ? ref1.equal(webContents) : void 0) {
+        if ((ref1 = window.webContents) !== null ? ref1.equal(webContents) : void 0) {
             return window;
         }
     }

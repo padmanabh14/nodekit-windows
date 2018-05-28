@@ -16,9 +16,7 @@ console.log("STARTING SAMPLE APPLICATION");
 
 nodekit.on("ready", function() {
           
-                         var p = new BrowserWindow({
-                                                   'preloadURL': 'http://localhost:' + port,
-                                                   'nk.allowCustomProtocol': false });
+    var p = new BrowserWindow({ width: 800, height: 600 });
                       
            
            
