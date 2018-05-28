@@ -10,14 +10,15 @@ var path = require('path');
 const BrowserWindow = require('electro').BrowserWindow,
     nodekit = require('electro').app;
 
-console.log("STARTING SAMPLE APPLICATION");
+const pathHTML = "/index.html";
+console.log(pathHTML);
 
+nodekit.on("ready", function () {
+    console.log("STARTING SAMPLE APPLICATION");
+    var browserWindow = new BrowserWindow({ width: 500, height: 500 });
 
+    browserWindow.webContents.loadURL(`ms-appx-web://${pathHTML}`, {protocol:"file"});
 
-nodekit.on("ready", function() {
-          
-    var p = new BrowserWindow({ width: 800, height: 600 });
-                      
-           
-           
+    
+ 
  });

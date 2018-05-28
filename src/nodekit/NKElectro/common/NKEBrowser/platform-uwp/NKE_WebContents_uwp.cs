@@ -86,24 +86,43 @@ namespace io.nodekit.NKElectro
             var httpReferrer = options.itemOrDefault<string>("httpReferrer");
             var userAgent = options.itemOrDefault<string>("userAgent");
             var extraHeaders = options.itemOrDefault<Dictionary<string, object>>("extraHeaders");
-            var uri = new Uri(url);
 
-            var request = new Windows.Web.Http.HttpRequestMessage(Windows.Web.Http.HttpMethod.Get, uri);
-            if ((userAgent) != null)
-                  request.Headers["User-Agent"] = userAgent;
+            string protocol = options.itemOrDefault<string>("protocol");
+            Uri uri = null;
 
-            if ((httpReferrer) != null)
-                request.Headers["Referrer"] = httpReferrer;
-
-            if ((extraHeaders) != null)
+            if (protocol.Equals("http"))
             {
-                foreach (var item in extraHeaders)
-                {
-                    request.Headers[item.Key] = item.Value as string;
-                }
-            }
+                uri = new Uri(url);
+                var request = new Windows.Web.Http.HttpRequestMessage(Windows.Web.Http.HttpMethod.Get, uri);
 
-            webView.NavigateWithHttpRequestMessage(request);
+
+
+
+
+                if ((userAgent) != null)
+                    request.Headers["User-Agent"] = userAgent;
+
+                if ((httpReferrer) != null)
+                    request.Headers["Referrer"] = httpReferrer;
+
+                if ((extraHeaders) != null)
+                {
+                    foreach (var item in extraHeaders)
+                    {
+                        request.Headers[item.Key] = item.Value as string;
+                    }
+                }
+
+                webView.NavigateWithHttpRequestMessage(request);
+            }
+            else if (protocol.Equals("file"))
+            {
+               
+                var uri2 = new Uri(url);
+
+
+                webView.Navigate(new Uri("ms-appx-web:///views/index.html"));
+            }
         }
         /*
         

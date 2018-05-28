@@ -22,7 +22,7 @@ var BrowserWindow = io.nodekit.electro.BrowserWindow;
 var _browserWindows = {};
 
 BrowserWindow.prototype._init = function() {
-    console.log("Reached here");
+    
     this._id = this.id;
     _browserWindows["w" + this._id] = this;
 };

@@ -41,6 +41,7 @@ namespace io.nodekit.Samples.nodekit_sample
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            
         }
 
         /// <summary>

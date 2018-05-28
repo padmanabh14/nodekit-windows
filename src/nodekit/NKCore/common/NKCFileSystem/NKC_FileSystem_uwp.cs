@@ -73,7 +73,7 @@ namespace io.nodekit.NKCore
             Dictionary<string, object> storageItem = new Dictionary<string, object>();
 
             NKLogging.log("Stat Not Found " + path);
-            return storageItem;
+           
 
             var foldername = System.IO.Path.GetDirectoryName(path);
             var filename = System.IO.Path.GetFileName(path);
@@ -133,7 +133,7 @@ namespace io.nodekit.NKCore
             if (localResources.exists(path))
                 return localResources.getDirectory(path);
 
-            return null;
+           
 
             var folder = await StorageFolder.GetFolderFromPathAsync(path);
             var items = await folder.GetFilesAsync();

@@ -15,13 +15,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 this.process = this.process || {}
 var process = this.process;
 
 process.platform = process.platform || "win32"
 
+console.log("Reached before NKSCRIPTING");
+
 this.console = this.console || function () { };
-console.log = function (arg) { NKScriptingBridge.log(arg); }
+console.log = function (arg) {
+    
+ 
+    NKScriptingBridge.log(arg); 
+    
+}
 
 NKScripting.serialize = true;
 
