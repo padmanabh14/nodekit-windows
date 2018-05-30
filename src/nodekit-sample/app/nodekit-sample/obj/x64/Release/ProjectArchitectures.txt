@@ -1,0 +1,11 @@
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKCore\platform-universal\NKCore-platform-universal.csproj;x64
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKElectro\platform-universal\NKElectro-platform-universal.csproj;x64
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKElectro\platform-universal\NKElectro-platform-universal.csproj;x64
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-universal\NKScripting-platform-universal.csproj;x64
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-universal\NKScripting-platform-universal.csproj;x64
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-universal\NKScripting-platform-universal.csproj;x64
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-universal-winmd\NKScripting-platform-universal-winmd.csproj;x64
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-universal-winmd\NKScripting-platform-universal-winmd.csproj;x64
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-universal-winmd\NKScripting-platform-universal-winmd.csproj;x64
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit-sample\app\nodekit-sample\nodekit-sample.csproj;x64
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit-sample\plugin\io.nodekit.Samples.Plugin\io.nodekit.Samples.Plugin.csproj;x64

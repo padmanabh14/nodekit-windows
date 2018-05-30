@@ -1,0 +1,6 @@
+C:\Users\t-pagu\Desktop\nodekit-windows\src\NodeKit\NKScripting\platform-win32-wf\bin\Release\io.nodekit.NKScripting-win32-wf.dll
+C:\Users\t-pagu\Desktop\nodekit-windows\src\NodeKit\NKScripting\platform-win32-wf\bin\Release\io.nodekit.NKScripting-win32-wf.pdb
+C:\Users\t-pagu\Desktop\nodekit-windows\src\NodeKit\NKScripting\platform-win32-wf\obj\Release\NKScripting-platform-win32-wf.csprojAssemblyReference.cache
+C:\Users\t-pagu\Desktop\nodekit-windows\src\NodeKit\NKScripting\platform-win32-wf\obj\Release\NKScripting-platform-win32-wf.csproj.CoreCompileInputs.cache
+C:\Users\t-pagu\Desktop\nodekit-windows\src\NodeKit\NKScripting\platform-win32-wf\obj\Release\io.nodekit.NKScripting-win32-wf.dll
+C:\Users\t-pagu\Desktop\nodekit-windows\src\NodeKit\NKScripting\platform-win32-wf\obj\Release\io.nodekit.NKScripting-win32-wf.pdb

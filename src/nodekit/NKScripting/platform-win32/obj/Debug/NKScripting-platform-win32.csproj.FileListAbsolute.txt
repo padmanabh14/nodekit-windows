@@ -1,0 +1,12 @@
+C:\Users\t-pagu\Downloads\nodekit-windows-master\nodekit-windows-master\src\nodekit\NKScripting\platform-win32\bin\Debug\io.nodekit.NKScripting.win32.dll
+C:\Users\t-pagu\Downloads\nodekit-windows-master\nodekit-windows-master\src\nodekit\NKScripting\platform-win32\bin\Debug\io.nodekit.NKScripting.win32.pdb
+C:\Users\t-pagu\Downloads\nodekit-windows-master\nodekit-windows-master\src\nodekit\NKScripting\platform-win32\obj\Debug\NKScripting-platform-win32.csprojAssemblyReference.cache
+C:\Users\t-pagu\Downloads\nodekit-windows-master\nodekit-windows-master\src\nodekit\NKScripting\platform-win32\obj\Debug\NKScripting-platform-win32.csproj.CoreCompileInputs.cache
+C:\Users\t-pagu\Downloads\nodekit-windows-master\nodekit-windows-master\src\nodekit\NKScripting\platform-win32\obj\Debug\io.nodekit.NKScripting.win32.dll
+C:\Users\t-pagu\Downloads\nodekit-windows-master\nodekit-windows-master\src\nodekit\NKScripting\platform-win32\obj\Debug\io.nodekit.NKScripting.win32.pdb
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-win32\bin\Debug\io.nodekit.NKScripting.win32.dll
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-win32\bin\Debug\io.nodekit.NKScripting.win32.pdb
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-win32\obj\Debug\NKScripting-platform-win32.csprojAssemblyReference.cache
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-win32\obj\Debug\NKScripting-platform-win32.csproj.CoreCompileInputs.cache
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-win32\obj\Debug\io.nodekit.NKScripting.win32.dll
+C:\Users\t-pagu\Desktop\nodekit-windows\src\nodekit\NKScripting\platform-win32\obj\Debug\io.nodekit.NKScripting.win32.pdb
